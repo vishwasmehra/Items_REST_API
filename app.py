@@ -1,5 +1,4 @@
-from _typeshed import IdentityFunction
-import sqlite3
+
 from flask import Flask, request
 from flask_restful import Resource, Api
 from flask_jwt import jwt, jwt_required
